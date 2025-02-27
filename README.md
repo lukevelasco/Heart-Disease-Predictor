@@ -7,16 +7,18 @@ Project Structure
 Data Loading and Exploration:
 
 - Loads the heart disease dataset using Pandas.
-Examines the dataset's shape and distribution of key variables, including gender, chest pain type, and fasting blood sugar.
-Visualizes relationships between different features (e.g., Thal, sex, slope) and their correlation with heart disease.
+- Examines the dataset's shape and distribution of key variables, including gender, chest pain type, and fasting blood sugar.
+- Visualizes relationships between different features (e.g., Thal, sex, slope) and their correlation with heart disease.
+
 Data Preprocessing:
 
-One-hot encodes categorical variables like chest pain type and slope.
-Normalizes the dataset to improve the model's training process.
+- One-hot encodes categorical variables like chest pain type and slope.
+- Normalizes the dataset to improve the model's training process.
+
 Model Selection and Evaluation:
 
-Implements various machine learning models including:
-Logistic Regression
+- Implements various machine learning models including:
+  - Logistic Regression
 Decision Tree
 Random Forest
 K-Nearest Neighbors (KNN)
