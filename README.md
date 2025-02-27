@@ -6,7 +6,7 @@ Project Structure
 
 Data Loading and Exploration:
 
-Loads the heart disease dataset using Pandas.
+- Loads the heart disease dataset using Pandas.
 Examines the dataset's shape and distribution of key variables, including gender, chest pain type, and fasting blood sugar.
 Visualizes relationships between different features (e.g., Thal, sex, slope) and their correlation with heart disease.
 Data Preprocessing:
