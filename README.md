@@ -19,37 +19,42 @@ Model Selection and Evaluation:
 
 - Implements various machine learning models including:
   - Logistic Regression
-Decision Tree
-Random Forest
-K-Nearest Neighbors (KNN)
-Support Vector Machine (SVM)
-Naive Bayes
+  - Decision Tree
+  - Random Forest
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+- Naive Bayes
+
 Evaluates each model's accuracy on the test set, with results displayed as a bar plot for easy comparison.
 
 Manual Logistic Regression Implementation:
 
-Demonstrates forward and backward propagation with custom functions for weight and bias updates.
-Visualizes cost reduction over iterations, showing the improvement of model accuracy.
+- Demonstrates forward and backward propagation with custom functions for weight and bias updates.
+- Visualizes cost reduction over iterations, showing the improvement of model accuracy.
+
 Neural Network with TensorFlow:
 
-Trains a simple neural network using a Sequential model with multiple Dense layers, dropout, and batch normalization.
-Uses EarlyStopping to avoid overfitting.
+- Trains a simple neural network using a Sequential model with multiple Dense layers, dropout, and batch normalization.
+- Uses EarlyStopping to avoid overfitting.
+
 Visualization Examples
 
-The project includes several visualizations to illustrate feature distributions and correlations with heart disease:
-Count plots showing categorical feature distributions (e.g., sex, Thal).
-Cross-tabulations showing feature correlations with heart disease, such as age and fasting blood sugar.
+- The project includes several visualizations to illustrate feature distributions and correlations with heart disease:
+  - Count plots showing categorical feature distributions (e.g., sex, Thal).
+  - Cross-tabulations showing feature correlations with heart disease, such as age and fasting blood sugar.
+
 Dependencies
 
-Python
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-Learn
-TensorFlow (for neural network)
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- TensorFlow (for neural network)
+
 How to Run
 
-Clone the repository.
-Install dependencies via pip install -r requirements.txt.
-Run the main notebook or script to explore the data, visualize insights, and evaluate model accuracies.
+- Clone the repository.
+- Install dependencies via pip install -r requirements.txt.
+- Run the main notebook or script to explore the data, visualize insights, and evaluate model accuracies.
